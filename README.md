@@ -14,6 +14,8 @@ Parking is an issue in and around Bucks County. Finding a parking spot in a town
 
 ## Competition
 
+Currently there is no "Peer Parking App".  The only parking app that is available by the borough is <a href="http://us.parkmobile.com/" target="_blank">Park Mobile</a>
+
 ## Sketches of MVP (minimum viable product)
 
 <div>
