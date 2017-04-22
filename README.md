@@ -7,11 +7,11 @@ Parking is an issue in and around Bucks County. Finding a parking spot in a town
 
 ## Key Feature(s)
 <ul>
-        <li>show where parking exist</li>
+ 	<li>show where parking exist</li>
  	<li>show where parking is available</li>
  	<li>show cost of parking(private lots</li>
  	<li>provide additional parking information for visitors</li>
- 	<li>Use of Geo-Fencing</li>
+ 	<li>Use of Geo-Fencing example: <a href="https://www.npmjs.com/package/react-native-geo-fencing" target="_blank">React-Native-Geo-Fencing</a></li>
 </ul>
 
 ## Competition
