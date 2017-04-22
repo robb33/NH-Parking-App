@@ -32,7 +32,9 @@ Currently there is no "Peer Parking App".  The only parking app that is availab
 ## Database Architecture
 
 The app will use MongoDB.
-
+<div>
+<img src="http://robbee.io/wp-content/uploads/2017/04/schema.png"/>
+</div>
 
 
 ## User Acquisition
