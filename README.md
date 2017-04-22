@@ -33,7 +33,7 @@ Currently there is no "Peer Parking App".  The only parking app that is availab
 
 The app will use MongoDB.
 <div>
-<img src="http://robbee.io/wp-content/uploads/2017/04/schema.png"/>
+<img src="http://robbee.io/wp-content/uploads/2017/04/schema.png" width="200" height="200"/>
 </div>
 
 
