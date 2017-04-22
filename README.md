@@ -9,17 +9,10 @@ A Peer User Parking App
 
 ## Sketches of MVP (minimum viable product)
 
-![alt tag](http://robbee.io/wp-content/uploads/2017/04/first-sketch.png)
-
-![alt tag](http://robbee.io/wp-content/uploads/2017/04/second-sketch.png)
-
-![alt tag](http://robbee.io/wp-content/uploads/2017/04/third-sketch.png)
-
-![alt tag](http://robbee.io/wp-content/uploads/2017/04/fourth-sketch.png)
-
-![alt tag](http://robbee.io/wp-content/uploads/2017/04/fifth-sketch.png)
-
-![alt tag](http://robbee.io/wp-content/uploads/2017/04/sixth-sketch.png)
+<p>
+  <img src="http://robbee.io/wp-content/uploads/2017/04/first-sketch.png" width="150"/>
+  <img src="http://robbee.io/wp-content/uploads/2017/04/first-sketch.png" width="350"/>
+</p>
 
 ## Database Architecture
 
