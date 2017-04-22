@@ -12,10 +12,10 @@ A Peer User Parking App
 <div>
 	<img src="http://robbee.io/wp-content/uploads/2017/04/first-sketch.png" width="250"/>
 	<img src="http://robbee.io/wp-content/uploads/2017/04/second-sketch.png" width="250"/>
-	<img src="http://robbee.io/wp-content/uploads/2017/04/third-sketch-sketch.png" width="250"/>
-	<img src="http://robbee.io/wp-content/uploads/2017/04/fourth-sketch-sketch.png" width="250"/>
-	<img src="http://robbee.io/wp-content/uploads/2017/04/fifth-sketch-sketch.png" width="250"/>
-	<img src="http://robbee.io/wp-content/uploads/2017/04/sixth-sketch-sketch.png" width="250"/>
+	<img src="http://robbee.io/wp-content/uploads/2017/04/third-sketch.png" width="250"/>
+	<img src="http://robbee.io/wp-content/uploads/2017/04/fourth-sketch.png" width="250"/>
+	<img src="http://robbee.io/wp-content/uploads/2017/04/fifth-sketch.png" width="250"/>
+	<img src="http://robbee.io/wp-content/uploads/2017/04/sixth-sketch.png" width="250"/>
 </div>
 
 ## Database Architecture
