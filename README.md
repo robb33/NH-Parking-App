@@ -38,3 +38,7 @@ Several avenues to promote the app.  There are a couple of site available for t
 <a href="http://newhopefreepress.com/" target="_blank" rel="noopener noreferrer">NewHopeFreepress.com</a>
 
 <a href="http://newhope.fm/" target="_blank" rel="noopener noreferrer">NewHope dot FM</a>
+
+In addition, will be using a lot the techniques and principles of Guerrilla Marketing
+
+<a href="http://www.creativeguerrillamarketing.com/what-is-guerrilla-marketing/" target="_blank">What is Guerrilla Marketing</a>
