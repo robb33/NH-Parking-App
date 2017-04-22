@@ -33,6 +33,18 @@ Currently there is no "Peer Parking App".  The only parking app that is availab
 
 The app will use MongoDB.
 
+parking street{
+id:
+15 min interval(min):
+actual time(at):
+}
+
+parking lot{
+id:
+actual time(at):
+}
+
+
 ## User Acquisition
 
 Several avenues to promote the app.  There are a couple of site available for the borough, including my own.  Here are the two sites.
