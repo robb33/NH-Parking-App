@@ -1,0 +1,16 @@
+{
+  "name": "ExNavigationExample",
+  "version": "0.0.1",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "@expo/ex-navigation": "file:../",
+    "@expo/vector-icons": "~4.0.0",
+    "babel-preset-exponent": "^1.0.0",
+    "expo": "^15.0.2",
+    "lodash": "^4.13.1",
+    "mongoose": "^4.9.7",
+    "react": "~15.4.2",
+    "react-native": "https://github.com/exponent/react-native/archive/sdk-15.0.0.tar.gz"
+  }
+}
