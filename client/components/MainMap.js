@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
 
   mapz: {
     width: 320,
-    height: 500,
+    height: 430,
     borderWidth: 5,
     borderRadius: 40,
     borderColor: "#D0021B"

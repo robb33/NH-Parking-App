@@ -24,51 +24,42 @@ function getColor(isSelected) {
 export default class Homescreen extends Component {
   static route = {
     navigationBar: {
-      title: 'New Hope Street Parking',
+      title: 'right here',
+      // tabBarLabel: 'Notifications',
       backgroundColor: '#000',
-      // renderTitle: {text}
+      // renderTitle: {this._renderTitle},
+      // renderTitle: {route.title},
+      // renderTitle={isSelected => this._renderTitle('first', isSelected)},
+      // 
+      // title(params) {
+      // return `Greeting for ${params.name}`;
+      // },
+      // 
+      // 
+      // 
+      // 
     },
   };
 
 
+  // _goToFirstTab = () => {
+  //   this.props.navigation.performAction(({ tabs, stacks }) => {
+  //     tabs('tab-navigation').jumpToTab('first');
+  //   });
+  // };
+
+ //  _goToSecondTab = () => {
+ //    this.props.navigation.performAction(({ tabs, stacks }) => {
+ //      tabs('tab-navigation').jumpToTab('second');
+ //    });
+ //  };
 
 
-  _goToFirstTab = () => {
-    this.props.navigation.performAction(({ tabs, stacks }) => {
-      tabs('tab-navigation').jumpToTab('first');
-    });
-  };
-
-  _goToSecondTab = () => {
-    this.props.navigation.performAction(({ tabs, stacks }) => {
-      tabs('tab-navigation').jumpToTab('second');
-    });
-  };
-
-
- _goToThirdTab = () => {
-    this.props.navigation.performAction(({ tabs, stacks }) => {
-      tabs('tab-navigation').jumpToTab('third');
-    });
-  };
-
-// _renderTitle = (text: string, isSelected: boolean) => {
-//     return (
-//       <Text
-//         style={[
-//           styles.buttonTitleText,
-//           isSelected ? styles.selectedText : null,
-//         ]}>
-//         {text}
-//       </Text>
-//     );
-//   };
-
-  _goToScreen = name => () => {
-    this.props.navigator.push(Router.getRoute(name));
-  };
-
-
+ // _goToThirdTab = () => {
+ //    this.props.navigation.performAction(({ tabs, stacks }) => {
+ //      tabs('tab-navigation').jumpToTab('third');
+ //    });
+ //  };
 
   render() {
     return (
@@ -79,6 +70,7 @@ export default class Homescreen extends Component {
           id="tab-navigation"
           navigatorUID="tab-navigation"
           initialTab="first"
+          //changes color of tab
           translucent={true}
           tabBarStyle={styles.tabBar}
 
@@ -86,17 +78,23 @@ export default class Homescreen extends Component {
           
           <TabNavigationItem
             id="first"
+            title="here"
             selectedStyle={styles.selectedTab}
             renderTitle={this._renderTitle}
-            renderIcon={isSelected => (
 
+
+            // renderTitle={isSelected => this._renderTitle('first', isSelected)}
+
+
+            renderIcon={isSelected => (
               <Ionicons
                 name="ios-map-outline"
                 size={24}
                 color={getColor(isSelected)}
               />
-
             )}>
+
+
             
 
             <View style={styles.container}>
@@ -107,6 +105,7 @@ export default class Homescreen extends Component {
           
           <TabNavigationItem
             id="second"
+            title="second"
             selectedStyle={styles.selectedTab}
             renderTitle={this._renderTitle}
             renderIcon={isSelected => (
@@ -132,6 +131,7 @@ export default class Homescreen extends Component {
 
               <TabNavigationItem
                 id="third"
+                title="third"
                 selectedStyle={styles.selectedTab}
                 renderTitle={this._renderTitle}
                 renderIcon={isSelected => (
@@ -167,6 +167,10 @@ export default class Homescreen extends Component {
 }
 
 const IMAGE_SIZE = Dimensions.get('window').width / 2 - 16;
+
+
+
+
 
 const styles = StyleSheet.create({
   container: {

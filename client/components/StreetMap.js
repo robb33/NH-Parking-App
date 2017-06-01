@@ -6,6 +6,7 @@ import MarkerTypes from 'react-native-maps';
 class StreetMap extends Component {
 
 
+
 state = {
     mapRegion: { latitude: 40.361753549, longitude: -74.9504311417, latitudeDelta: 0.0022, longitudeDelta: 0.0021 }
   };
@@ -44,7 +45,7 @@ const styles = StyleSheet.create({
 
   mapz: {
     width: 320,
-    height: 500,
+    height: 430,
     borderWidth: 5,
     borderRadius: 40,
     borderColor: "#D0021B"

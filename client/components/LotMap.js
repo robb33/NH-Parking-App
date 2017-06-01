@@ -4,7 +4,7 @@ import MapView from 'react-native-maps';
 import MarkerTypes from 'react-native-maps';
 
 class LotMap extends Component {
-
+  
 
 state = {
     mapRegion: { latitude: 40.361753549, longitude: -74.9504311417, latitudeDelta: 0.0022, longitudeDelta: 0.0021 }
